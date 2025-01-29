@@ -1,0 +1,373 @@
+ /* Done by Kunal Thakur */
+
+body {
+  /* background: #f5f5f5; */
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
+}
+.bg-dark {
+  background-color: #3e0b9d !important;
+  color: #fff !important;
+}
+.navbar-light .navbar-brand {
+  color: #fff !important;
+}
+
+
+.container-fluid {
+  width: 100% !important;
+}
+.container {
+  max-width: 1200px !important;
+}
+
+.main-heading h1 {
+  font-size: 35px;
+  margin: 90px 0 0 0;
+  color: #ff9948;
+  font-weight: bold;
+}
+
+.main-heading h1 span {
+  color: #123461;
+  letter-spacing: 3px;
+}
+
+.main-heading p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+.main-heading img {
+  width: 100%;
+  height: auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+button {
+  background-color: #3e0b9d !important;
+  color: #fff !important;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #693dce !important;
+  background-color: #e7ddfe !important;
+  border-radius: 3px;
+  border: 1px solid #123461 !important;
+  font-weight: 600;
+}
+.dropdown-item:hover {
+  color: #693dce !important;
+  font-weight: 600;
+  background: none !important;
+}
+
+.header-link {
+  transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #693dce !important;
+    background-color: #e7ddfe;
+    border-radius: 3px;
+}
+.nav-link.active {
+  color: #693dce !important;
+  background-color: #e7ddfe !important;
+  border-radius: 3px !important;
+}
+
+.bg-dark .border-bottom {
+  border-bottom: 1px solid #e7ddfe !important;
+}
+.h-530 {
+  height: 580px;
+}
+.text-color-white {
+  color: #fff;
+}
+.align-retirements {
+  padding: 8px;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.align-check {
+  height: 18px;
+  width: 18px;
+  color: #0d3361;
+}
+.bg-text-danger{
+  color: #b31212;
+  font-weight: 600;
+}
+
+/* navbar css */
+.custom-navbar {
+  background-color: #3e0b9d; 
+  padding: 10px 0;
+}
+.custom-navbar img {
+  height: 50px; 
+  width: auto;
+  margin-right: 5px; 
+  vertical-align: middle;
+}
+.brand-text {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+.navbar-nav {
+  margin-left: auto; /* Pushes the nav items to the right */
+}
+.header-link {
+  color: white !important;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.header-link:hover, .header-link:focus {
+  color: #FFA500 !important; /* Orange color on hover/focus */
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+
+
+@media (max-width: 991px) {
+  .header-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+}
+/* coursepage css Done by Nikita Vyas */
+
+.courses-container{
+  padding-top: 100px ;
+}
+
+.courses-container h1 {
+  
+    text-align: center;
+  
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  
+}
+.course-card {
+  position: relative;
+  overflow: hidden;
+}
+.course-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffa500;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.rating span {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.course-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body .btn-primary {
+  background-color: #4B0082;
+  border-color: #4B0082;
+  transition: background-color 0.3s ease;
+  position: center;
+}
+
+.card-body .btn-primary:hover {
+  background-color: #3a006b;
+  border-color: #3a006b;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  margin-top: auto;
+}
+
+
+/* ContactPage.css Done by Dhruvit Patel */
+.contact-page {
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background: url('./images/contact.jpg') center/cover no-repeat;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-container {
+ margin-bottom: 10px;
+  padding: 2px 0;
+}
+
+.contact-info, .contact-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.social-icons svg {
+  margin-right: 15px;
+  color: #ffa500;
+}
+
+.btn-primary {
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
+
+.btn-primary:hover {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+/* upcomingevent css Done by Parth Patel*/
+.upcoming-events {
+  padding: 50px 0;
+}
+.upcoming-events{
+  padding-top: 100px;
+}
+
+.join-text {
+  color: #ffa500;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.event-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.event-date {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  min-width: 80px;
+}
+
+.event-date .month {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.event-date .day {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.event-date .year {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.event-details {
+  padding-left: 20px;
+}
+
+.event-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.event-details p {
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.main-heading {
+  padding-top: 100px; 
+}
+
